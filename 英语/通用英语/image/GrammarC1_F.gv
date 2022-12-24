@@ -1,0 +1,30 @@
+digraph GrammarC1_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C1 [label="Nouns
+名词"]
+	D1 [label="Common and Proper Nouns
+普通名词和专有名词"]
+	D2 [label="Nouns of Address
+称呼名词"]
+	D3 [label="Concrete and Abstract Nouns
+具体名词和抽象名词"]
+	D4 [label="Countable Nouns
+可数名词"]
+	D5 [label="Uncountable Nouns
+不可数名词"]
+	D6 [label="Collective Nouns
+集体名词"]
+	D7 [label="Compound Nouns
+复合名词"]
+	D8 [label="Nominalization (Creating Nouns)
+名词化（创造名词）"]
+	C1 -> D1
+	C1 -> D2
+	C1 -> D3
+	C1 -> D4
+	C1 -> D5
+	C1 -> D6
+	C1 -> D7
+	C1 -> D8
+}

@@ -1,0 +1,96 @@
+\documentclass{standalone}
+\usepackage[UTF8]{ctex} % 中文字体支持
+% \usepackage{geometry}
+% \geometry{height=2800mm, width=200mm}
+\usepackage{amsmath, amssymb}
+\usepackage{tikz, xcolor}
+\usetikzlibrary{shapes, arrows}
+% \definecolor{mybrown}{RGB}{214,91,9}
+
+\usepackage[edges]{forest}
+
+\usepackage{sansmath}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\sfdefault}{phv}
+
+\tikzset{parent/.style={text width=0.6cm,rounded corners=2pt},
+    child/.style={text width=0.5cm,rounded corners=2pt},
+    grandchild/.style={},
+}
+
+\begin{document}
+
+\sansmath
+
+\begin{forest}
+    for tree={
+        l sep=0.6cm,
+        s sep=0.4cm,
+        minimum height=0.5cm,
+        minimum width=0.5cm,
+        draw, anchor=parent first, % 左对齐
+        align=center,
+        % where n children=0{tier=word}{}, % 叶子结点对齐
+        % anchor=parent first, %左对齐
+        grow'=0}, forked edges,
+    [English Grammar 英语语法, rotate=90, font=\Large\bfseries
+        [Parts of Speech 词类, rotate=90, font=\large,
+            [Nouns\\名词,
+                [Common and Proper Nouns\\普通名词和专有名词]
+                [Nouns of Address\\称呼名词]
+                [Concrete and Abstract Nouns\\具体名词和抽象名词]
+                [Countable Nouns\\可数名词]
+                [Uncountable Nouns\\不可数名词]
+                [Collective Nouns\\集体名词]
+                [Compound Nouns\\复合名词]
+                [Nominalization (Creating Nouns)\\名词化(创造名词)]
+            ]
+            [Pronouns\\代词,
+                [Personal Pronouns\\人称代词,
+                    [Number\\数量]
+                    [Person\\人称]
+                    [Gender\\性]
+                    [Case\\格]
+                    [Reflexive Pronouns\\反身代词]
+                ]
+                [Intensive Pronouns\\强化代词]
+                [Indefinite Pronouns\\不定代词]
+                [Demonstrative Pronouns\\指示代词]
+                [Interrogative Pronouns\\疑问代词]
+                [Relative Pronouns\\关系代词]
+                [Reciprocal Pronouns\\相互代词]
+                [Dummy Pronouns\\虚拟代词]
+            ]
+            [Verbs\\动词,
+                [Finite and Non-finite Verbs\\限定性动词和非限定性动词]
+                [Transitive and Intransitive Verbs\\及物动词和不及物动词]
+                [Regular and Irregular Verbs\\规则动词和不规则动词]
+                [Auxiliary Verbs\\助动词]
+                [Infinitives\\不定式]
+                [\\]
+                [\\]
+                [\\]
+                [\\]
+            ]
+            [Adjectives\\形容词]
+            [Adverbs\\副词]
+            [Prepositions\\介词]
+            [Conjunctions\\连接词(连词)]
+            [Other parts of speech\\其它词类]
+        ]
+        [Inflection (Accidence) 屈折变化(词法), rotate=90, font=\large,
+            [Conjugation\\动词的词形变化]
+            [Declension\\词尾变化]
+            [Regular and Irregular Inflection\\规则和不规则屈折变化]
+        ]
+        [Syntax 句法, rotate=90, font=\large,
+            [Subjects and Predicates\\主语和谓语]
+            [Modifiers\\修饰词]
+            [Phrases\\短语]
+            [Clauses\\分句]
+            [Sentences\\句子]
+        ]
+    ]
+    \draw (-5mm, -1400mm) rectangle (205mm, 1400mm);
+\end{forest}
+\end{document}

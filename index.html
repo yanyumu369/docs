@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>言雨木</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="keywords" content="YANYUMU-ALEX, markdown, docsify">
+  <meta name="description" content="以markdown编辑, 并以docsify发布的知识整理笔记">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="author" content="YANYUMU-ALEX">
+  <link rel="stylesheet" href="lib/vue.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4.12.2/themes/vue.css"> -->
+  <!-- 选项卡式内容 -->
+  <style>
+    :root {
+      --docsifytabs-border-color: #ededed;
+      --docsifytabs-tab-highlight-color: purple;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">加载中...</div>
+  <script>
+    window.$docsify = {
+      logo: './lib/headimg.jpg',
+      name: '言雨木',
+      repo: 'https://github.com/YANYUMU-ALEX/notebook.git',
+      coverpage: false,
+      loadSidebar: true,
+      sidebarDisplayLevel: 1,
+    //   maxLevel: 4,
+      subMaxLevel: 3,
+      loadNavbar: true,
+    //   mergeNavbar: true,
+      auto2top: false,
+      autoHeader: false,
+    //   alias: {
+    //   '/.*/_sidebar.md': '/_sidebar.md'
+    //   },
+      // basePath: '/docs/',
+      nameLink: {
+          '/': '#/',
+        },
+
+    //   markdown: {
+    //     latexRender: katex.renderToString.bind(katex)
+    //   },
+  
+      // homepage: "README.md",
+      // 搜索框的完整配置参数
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto', // or 'auto'
+        placeholder: '请输入要搜索的关键字',
+        noData: '未搜索到结果',
+        depth: 6,// 搜索标题的最大层级, 1 - 6
+        hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+      },
+
+      // 分页导航
+      pagination: {
+        previousText: '上一章节',
+        nextText: '下一章节',
+      },
+
+      // 选项卡式内容
+      tabs: {
+        persist    : true,      // default
+        sync       : true,      // default
+        theme      : 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      },
+
+      // 右侧目录
+    //   toc: {
+    //     tocMaxLevel: 5,
+    //     target: 'h1, h2, h3'
+    //   },
+
+      // 更新日期
+      timeUpdater: {
+        text: ">最后更新时间: {docsify-updated}",
+        formatUpdated: "{YYYY}/{MM}/{DD} {HH}:{mm}:{ss}",
+      },
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/docsify.min.js"></script>
+  <!-- <script src="docsify.js"></script> -->
+  <!-- 图片缩放 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/zoom-image.min.js"></script>
+  <!-- 左侧目录折叠 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse@latest/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- 右侧目录显示 -->
+  <!-- <script src="./plugin_toc.js"></script> -->
+  <!-- 选项卡式内容 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@latest"></script>
+  <!--搜索插件-->
+  <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/search.min.js"></script>
+  <!-- KaTex 公式支持 -->
+  <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/marked@latest"></script>
+  <!-- CDN files for docsify-katex -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <!-- 复制到剪贴板，在所有的代码块上添加一个简单的 Copy to Clipboard 按钮来允许用户从你的文档中复制代码。-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@latest"></script>
+  <!-- 分页导航 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination@latest/dist/docsify-pagination.min.js"></script>
+  <!-- 语法高亮 -->
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-c.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-cpp.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-csharp.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-css.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-git.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-go.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-java.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-javascript.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-latex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-lua.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-matlab.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-makdown.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-php.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-nasm.min.js"></script>
+  <!-- 更新日期 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-updated@latest/src/time-updater.min.js"></script>
+</body>
+</html>

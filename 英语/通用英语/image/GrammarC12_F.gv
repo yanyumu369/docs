@@ -1,0 +1,30 @@
+digraph GrammarC12_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C12 [label="Subjects and Predicates
+主语和谓语"]
+	D81 [label="The Subject
+主语"]
+	E31 [label="The Predicate
+谓语"]
+	F15 [label="Complements
+补足语"]
+	G12 [label="Objects
+宾语"]
+	G13 [label="Subject Complements
+主语补足语"]
+	G14 [label="Object Complements
+宾语补足语"]
+	G15 [label="Adjective Complements
+形容词补足语"]
+	G16 [label="Adverbial Complements
+副词补足语"]
+	C12 -> D81
+	D81 -> E31
+	E31 -> F15
+	F15 -> G12
+	F15 -> G13
+	F15 -> G14
+	F15 -> G15
+	F15 -> G16
+}

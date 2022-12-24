@@ -1,0 +1,26 @@
+\documentclass[margin=5pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\begin{document}
+
+\newcommand{\tikzAngleOfLine}{\tikz@AngleOfLine}
+  \def\tikz@AngleOfLine(#1)(#2)#3{%
+  \pgfmathanglebetweenpoints{%
+    \pgfpointanchor{#1}{center}}{%
+    \pgfpointanchor{#2}{center}}
+  \pgfmathsetmacro{#3}{\pgfmathresult}%
+  }
+
+  \begin{tikzpicture}
+    \coordinate (A) at (1,1);
+    \coordinate (B) at ($(A)+(25:3)$);
+    \coordinate (C) at ($(A)+(100:5)$);
+    \draw (A) node[left]{$A$} -- (B) node[right]{$B$}node[midway,below]{$c$} -- (C)node[above]{$C$}node[midway,above]{$a$} -- (A)node[midway,left]{$b$};
+
+    \tikzAngleOfLine(A)(B){\AngleStart}
+    \tikzAngleOfLine(A)(C){\AngleEnd}
+    \draw[red,<->] (A)+(\AngleStart:2cm) arc (\AngleStart:\AngleEnd:2 cm);
+    \node[circle,fill=green] at ($(A)+({(\AngleStart+\AngleEnd)/2}:1 cm)$) {$\alpha$};
+\end{tikzpicture}
+\end{document} 

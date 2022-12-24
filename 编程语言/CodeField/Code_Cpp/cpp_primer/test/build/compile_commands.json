@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/cpp_primer/test/build",
+  "command": "E:\\mingw64\\bin\\g++.exe -DDEBUG -DREAL_COOL_ENGINEER @CMakeFiles/main.dir/includes_CXX.rsp  -pipe -std=c++11 -g -g -O0 -Wall -Wextra -pedantic -Werror -std=gnu++11 -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c E:\\Desktop\\Codefield\\Notebook\\docs\\programme\\CodeField\\Code_Cpp\\cpp_primer\\test\\src\\main.cpp",
+  "file": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/cpp_primer/test/src/main.cpp"
+}
+]

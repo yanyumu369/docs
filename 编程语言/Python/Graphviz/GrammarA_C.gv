@@ -1,0 +1,63 @@
+digraph GrammarA_C {
+	rankdir=LR
+	node [fontname="Arial, SimHei" fontsize=14 shape=rect]
+	A [label="English Grammar
+英语语法"]
+	B0 [label="Parts of Speech
+词类"]
+	B1 [label="Inflection (Accidence)
+屈折变化 (词法)"]
+	B2 [label="Syntax
+句法"]
+	C0 [label="Nouns
+名词"]
+	C1 [label="Pronouns
+代词"]
+	C2 [label="Verbs
+动词"]
+	C3 [label="Adjectives
+形容词"]
+	C4 [label="Adverbs
+副词"]
+	C5 [label="Prepositions
+介词"]
+	C6 [label="Conjunctions
+连接词 (连词)"]
+	C7 [label="Other parts of speech
+其它词类"]
+	C8 [label="Conjugation
+动词的词形变化"]
+	C9 [label="Declension
+词尾变化"]
+	C10 [label="Regular and Irregular Inflection
+规则和不规则屈折变化"]
+	C11 [label="Subjects and Predicates
+主语和谓语"]
+	C12 [label="Modifiers
+修饰词"]
+	C13 [label="Phrases
+短语"]
+	C14 [label="Clauses
+分句"]
+	C15 [label="Sentences
+句子"]
+	A -> B0
+	A -> B1
+	A -> B2
+	B0 -> C0
+	B0 -> C1
+	B0 -> C2
+	B0 -> C3
+	B0 -> C4
+	B0 -> C5
+	B0 -> C6
+	B0 -> C7
+	B1 -> C8
+	B1 -> C9
+	B1 -> C10
+	B2 -> C11
+	B2 -> C12
+	B2 -> C13
+	B2 -> C14
+	B2 -> C15
+}

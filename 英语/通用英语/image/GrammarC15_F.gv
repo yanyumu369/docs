@@ -1,0 +1,21 @@
+digraph GrammarC15_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C15 [label="Clauses
+分句"]
+	D89 [label="Independent Clauses
+独立分句"]
+	E32 [label="Dependent Clauses
+从属分句（从句）"]
+	F16 [label="Noun Clauses
+名词性从句"]
+	F17 [label="Relative Clauses
+关系从句"]
+	F18 [label="Adverbial Clauses
+副词性从句（状语从句）"]
+	C15 -> D89
+	D89 -> E32
+	E32 -> F16
+	E32 -> F17
+	E32 -> F18
+}

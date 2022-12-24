@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/Desktop/Notebook/docs/programme/CodeField/excise_cpp/build",
+  "command": "g++  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\main.dir\\src\\test1.cpp.obj -c E:\\Desktop\\Notebook\\docs\\programme\\CodeField\\excise_cpp\\src\\test1.cpp",
+  "file": "E:/Desktop/Notebook/docs/programme/CodeField/excise_cpp/src/test1.cpp"
+}
+]

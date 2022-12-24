@@ -1,0 +1,10 @@
+// the test
+digraph "芯片制造—半导体工艺制程" {
+	rankdir=LR
+	node [fontname="Arial, SimHei" fontsize=14 shape=rect]
+	A1 [label=Ming color=green]
+	B1 [label=Hong color=yellow]
+	B2 [label=Dong]
+	c -> b
+	a -> c
+}

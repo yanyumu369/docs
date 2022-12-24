@@ -1,0 +1,17 @@
+\documentclass[border=15pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{intersections, 3d}
+\usepackage{sansmath}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\sfdefault}{phv}
+\begin{document}
+\begin{tikzpicture}[->]
+    ->,
+    plane x={(0.707,-0.707)},
+    plane y={(0.707,0.707)},
+    canvas is plane,
+    ]
+    \draw (0,0) -- (1,0);
+    % \draw (0,0) -- (0,1);
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,6 @@
+- [实验参数](scientific_research/papers_reading/parameters.md)
+- [DMI](scientific_research/papers_reading/DMI.md)
+- [人工合成反铁磁](scientific_research/papers_reading/synthetic_antiferromagnets.md)
+- [反铁磁](scientific_research/papers_reading/antiferromagnets.md)
+- [亚铁磁](scientific_research/papers_reading/ferrimagnet.md)
+- [神经形态计算](scientific_research/papers_reading/neuromorphic_computing/neuromorphic_computing.md)

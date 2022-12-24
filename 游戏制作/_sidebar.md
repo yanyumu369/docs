@@ -1,0 +1,2 @@
+- [计算机图形学](game/computer_graphics/readme.md)
+- [短视频](game/short_video/readme.md)

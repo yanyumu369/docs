@@ -1,0 +1,27 @@
+digraph GrammarC8_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C8 [label="Other parts of speech
+其它词类"]
+	D68 [label="Particles
+虚词"]
+	D69 [label="Articles
+冠词"]
+	D70 [label="Determiners
+限定词"]
+	E17 [label="Possessive Determiners
+物主限定词"]
+	D71 [label="Gerunds
+动名词"]
+	E18 [label="Gerunds as Objects of Verbs
+作为动词宾语的动名词"]
+	D72 [label="Interjections
+感叹词"]
+	C8 -> D68
+	C8 -> D69
+	C8 -> D70
+	C8 -> D71
+	C8 -> D72
+	D70 -> E17
+	D71 -> E18
+}

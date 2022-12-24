@@ -1,0 +1,8 @@
+- [第 1 章 数制和码制](computer_science/digital_electronics/数字电子技术基础_阎石/第1章_数制和码制.md)
+- [第 2 章 逻辑代数基础](computer_science/digital_electronics/数字电子技术基础_阎石/第2章_逻辑代数基础.md)
+- [第 3 章 门电路](computer_science/digital_electronics/数字电子技术基础_阎石/第3章_门电路.md)
+- [第 4 章 组合逻辑电路](computer_science/digital_electronics/数字电子技术基础_阎石/第4章_组合逻辑电路.md)
+- [第 5 章 半导体存储电路](computer_science/digital_electronics/数字电子技术基础_阎石/第5章_半导体存储电路.md)
+- [第 6 章 时序逻辑电路](computer_science/digital_electronics/数字电子技术基础_阎石/第6章_时序逻辑电路.md)
+- [第 7 章 脉冲波形的产生和整形电路](computer_science/digital_electronics/数字电子技术基础_阎石/第7章_脉冲波形的产生和整形电路.md)
+- [第 8 章 数模和模数转换](computer_science/digital_electronics/数字电子技术基础_阎石/第8章_数模和模数转换.md)

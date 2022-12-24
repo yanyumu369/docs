@@ -1,0 +1,4 @@
+E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/cpp_primer/sales_data/build/CMakeFiles/include.dir
+E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/cpp_primer/sales_data/build/CMakeFiles/add_item.dir
+E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/cpp_primer/sales_data/build/CMakeFiles/edit_cache.dir
+E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/cpp_primer/sales_data/build/CMakeFiles/rebuild_cache.dir

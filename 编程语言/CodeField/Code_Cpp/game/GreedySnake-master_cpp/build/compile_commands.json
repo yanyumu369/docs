@@ -1,0 +1,42 @@
+[
+{
+  "directory": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/include.dir/includes_CXX.rsp  -pipe -std=c++11 -g -g -O0 -Wall -Wextra -pedantic -Werror -std=gnu++11 -o CMakeFiles\\include.dir\\src\\include\\controller.cpp.obj -c E:\\Desktop\\Codefield\\Notebook\\docs\\programme\\CodeField\\Code_Cpp\\game\\GreedySnake-master_cpp\\src\\include\\controller.cpp",
+  "file": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/src/include/controller.cpp"
+},
+{
+  "directory": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/include.dir/includes_CXX.rsp  -pipe -std=c++11 -g -g -O0 -Wall -Wextra -pedantic -Werror -std=gnu++11 -o CMakeFiles\\include.dir\\src\\include\\food.cpp.obj -c E:\\Desktop\\Codefield\\Notebook\\docs\\programme\\CodeField\\Code_Cpp\\game\\GreedySnake-master_cpp\\src\\include\\food.cpp",
+  "file": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/src/include/food.cpp"
+},
+{
+  "directory": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/include.dir/includes_CXX.rsp  -pipe -std=c++11 -g -g -O0 -Wall -Wextra -pedantic -Werror -std=gnu++11 -o CMakeFiles\\include.dir\\src\\include\\map.cpp.obj -c E:\\Desktop\\Codefield\\Notebook\\docs\\programme\\CodeField\\Code_Cpp\\game\\GreedySnake-master_cpp\\src\\include\\map.cpp",
+  "file": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/src/include/map.cpp"
+},
+{
+  "directory": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/include.dir/includes_CXX.rsp  -pipe -std=c++11 -g -g -O0 -Wall -Wextra -pedantic -Werror -std=gnu++11 -o CMakeFiles\\include.dir\\src\\include\\point.cpp.obj -c E:\\Desktop\\Codefield\\Notebook\\docs\\programme\\CodeField\\Code_Cpp\\game\\GreedySnake-master_cpp\\src\\include\\point.cpp",
+  "file": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/src/include/point.cpp"
+},
+{
+  "directory": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/include.dir/includes_CXX.rsp  -pipe -std=c++11 -g -g -O0 -Wall -Wextra -pedantic -Werror -std=gnu++11 -o CMakeFiles\\include.dir\\src\\include\\snake.cpp.obj -c E:\\Desktop\\Codefield\\Notebook\\docs\\programme\\CodeField\\Code_Cpp\\game\\GreedySnake-master_cpp\\src\\include\\snake.cpp",
+  "file": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/src/include/snake.cpp"
+},
+{
+  "directory": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/include.dir/includes_CXX.rsp  -pipe -std=c++11 -g -g -O0 -Wall -Wextra -pedantic -Werror -std=gnu++11 -o CMakeFiles\\include.dir\\src\\include\\startinterface.cpp.obj -c E:\\Desktop\\Codefield\\Notebook\\docs\\programme\\CodeField\\Code_Cpp\\game\\GreedySnake-master_cpp\\src\\include\\startinterface.cpp",
+  "file": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/src/include/startinterface.cpp"
+},
+{
+  "directory": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/include.dir/includes_CXX.rsp  -pipe -std=c++11 -g -g -O0 -Wall -Wextra -pedantic -Werror -std=gnu++11 -o CMakeFiles\\include.dir\\src\\include\\tools.cpp.obj -c E:\\Desktop\\Codefield\\Notebook\\docs\\programme\\CodeField\\Code_Cpp\\game\\GreedySnake-master_cpp\\src\\include\\tools.cpp",
+  "file": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/src/include/tools.cpp"
+},
+{
+  "directory": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp  -pipe -std=c++11 -g -g -O0 -Wall -Wextra -pedantic -Werror -std=gnu++11 -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c E:\\Desktop\\Codefield\\Notebook\\docs\\programme\\CodeField\\Code_Cpp\\game\\GreedySnake-master_cpp\\src\\main.cpp",
+  "file": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/game/GreedySnake-master_cpp/src/main.cpp"
+}
+]

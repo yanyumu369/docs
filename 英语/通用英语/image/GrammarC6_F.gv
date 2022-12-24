@@ -1,0 +1,36 @@
+digraph GrammarC6_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C6 [label="Prepositions
+介词"]
+	D57 [label="Prepositional Phrases
+介词短语"]
+	D58 [label="Categories of Prepositions
+介词的类别"]
+	D59 [label="Common Prepositional Errors
+常见介词错误"]
+	D60 [label="Prepositions with Nouns
+带名词的介词"]
+	D61 [label="Prepositions with Verbs
+带动词的介词"]
+	D62 [label="Prepositions with Adjectives
+带形容词的介词"]
+	D63 [label="Prepositions in Idioms
+习语中的介词"]
+	E15 [label="Idioms that Start with Prepositions
+以介词开头的习语"]
+	E16 [label="Idioms that End with Prepositions
+以介词结尾的习语"]
+	D64 [label="Dangling Prepositions
+悬垂介词"]
+	C6 -> D57
+	C6 -> D58
+	C6 -> D59
+	C6 -> D60
+	C6 -> D61
+	C6 -> D62
+	C6 -> D63
+	C6 -> D64
+	D63 -> E15
+	D63 -> E16
+}

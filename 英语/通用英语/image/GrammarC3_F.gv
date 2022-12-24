@@ -1,0 +1,84 @@
+digraph GrammarC3_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C3 [label="Verbs
+动词"]
+	D17 [label="Finite and Non-finite Verbs
+限定性动词和非限定性动词"]
+	D18 [label="Transitive and Intransitive Verbs
+及物动词和不及物动词"]
+	D19 [label="Regular and Irregular Verbs
+规则动词和不规则动词"]
+	D20 [label="Auxiliary Verbs
+助动词"]
+	E6 [label="Primary Auxiliary Verbs
+主要助动词"]
+	F1 [label="Modal Auxiliary Verbs
+情态助动词"]
+	G1 [label=Will]
+	G2 [label=Would]
+	G3 [label=Shall]
+	G4 [label=Should]
+	G5 [label=Can]
+	G6 [label=Could]
+	G7 [label=May]
+	G8 [label=Might]
+	G9 [label=Must]
+	G10 [label="Substituting Modal Verbs
+替换情态动词"]
+	E7 [label="Semi-Modal Auxiliary Verbs
+半情态助动词"]
+	D21 [label="Infinitives
+不定式"]
+	D22 [label="Participles
+分词"]
+	D23 [label="Action Verbs
+动作动词"]
+	D24 [label="Stative Verbs
+状态动词"]
+	D25 [label="Linking Verbs
+连系动词（系动词）"]
+	D26 [label="Light Verbs
+轻动词"]
+	D27 [label="Phrasal Verbs
+短语动词"]
+	E8 [label="Common Phrasal Verbs
+常见短语动词"]
+	D28 [label="Conditional Verbs
+使役动词"]
+	D29 [label="Causative Verbs
+因果动词"]
+	D30 [label="Factitive Verbs
+宾补动词"]
+	D31 [label="Reflexive Verbs
+反身动词"]
+	C3 -> D17
+	C3 -> D18
+	C3 -> D19
+	C3 -> D20
+	C3 -> D21
+	C3 -> D22
+	C3 -> D23
+	C3 -> D24
+	C3 -> D25
+	C3 -> D26
+	C3 -> D27
+	C3 -> D28
+	C3 -> D29
+	C3 -> D30
+	C3 -> D31
+	D20 -> E6
+	D20 -> E7
+	D27 -> E8
+	E6 -> F1
+	F1 -> G1
+	F1 -> G2
+	F1 -> G3
+	F1 -> G4
+	F1 -> G5
+	F1 -> G6
+	F1 -> G7
+	F1 -> G8
+	F1 -> G9
+	F1 -> G10
+}

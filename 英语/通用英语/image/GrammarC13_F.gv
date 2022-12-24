@@ -1,0 +1,9 @@
+digraph GrammarC13_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C13 [label="Modifiers
+修饰词"]
+	D82 [label="Adjuncts
+修饰语"]
+	C13 -> D82
+}

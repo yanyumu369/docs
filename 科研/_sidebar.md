@@ -1,0 +1,2 @@
+- [公式计算/推导](scientific_research/calculation_formula/readme.md)
+- [论文阅读](scientific_research/papers_reading/readme.md)

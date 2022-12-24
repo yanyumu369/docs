@@ -1,0 +1,2 @@
+- [**芯片制造-半导体工艺制程实用教程**](computer_science/IC_fabrication/芯片制造_半导体工艺制程/readme.md)
+- [**硅集成电路工艺基础**](computer_science/IC_fabrication/硅集成电路工艺基础/readme.md)

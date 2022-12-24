@@ -1,0 +1,24 @@
+digraph GrammarC14_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C14 [label="Phrases
+短语"]
+	D83 [label="Noun Phrases
+名词短语"]
+	D84 [label="Adjective Phrases
+形容词短语"]
+	D85 [label="Adverbial Phrases
+副词短语"]
+	D86 [label="Participle Phrases
+分词短语"]
+	D87 [label="Absolute Phrases
+绝对短语"]
+	D88 [label="Appositives
+同位语"]
+	C14 -> D83
+	C14 -> D84
+	C14 -> D85
+	C14 -> D86
+	C14 -> D87
+	C14 -> D88
+}

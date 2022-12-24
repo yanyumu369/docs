@@ -1,0 +1,52 @@
+\documentclass{standalone}
+
+\usepackage{amsmath, amssymb}
+
+\renewcommand{\Re}{\mathrm{Re}}
+\renewcommand{\Im}{\mathrm{Im}}
+
+\usepackage[RPvoltages]{circuitikz} % package used for drawing some circuits
+
+\usepackage{xcolor} % Required for specifying colors by name
+\definecolor{marinho}{RGB}{0, 100, 150} % defining an ocean-blue(ish) color 
+
+\usepackage{tikz, tkz-euclide, pgfplots}
+\usetikzlibrary{shapes, patterns, positioning, shapes.gates.logic.US}
+
+% setting up symbols for vectors 'leaving' and 'entering' the screen.
+\tikzset{
+	% leaving
+	odot/.style={
+		circle,
+		inner sep=0pt,
+		node contents={$\odot$},
+		scale=2
+	}, %
+	% entering
+	otimes/.style={
+		circle,
+		inner sep=0pt,
+		node contents={$\otimes$},
+		scale=2
+	} %
+} %
+
+\pgfplotsset{compat=newest}
+
+\pgfplotsset{soldot/.style={color=green,only marks,mark=*}}
+\pgfplotsset{holdot/.style={color=black,only marks,mark=*}}
+
+\pgfplotsset{reddot/.style={color = red, only marks, mark=*}}
+\pgfplotsset{bluedot/.style={color=blue, only marks, mark=*}}
+\pgfplotsset{graydot/.style={color=gray!40, only marks, mark=*}}
+
+\newcommand{\ihat}{\hat{\imath}}
+\newcommand{\jhat}{\hat{\jmath}}
+\newcommand{\khat}{\hat{k}}
+
+\begin{document}
+\begin{tikzpicture}[radius=1cm]
+	\draw (0,0) -- (0, 1) arc[start angle=180, end angle=90]
+	-- (2,.5) arc[start angle=90, delta angle=-90];
+\end{tikzpicture}
+\end{document}

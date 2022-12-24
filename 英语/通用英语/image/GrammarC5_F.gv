@@ -1,0 +1,63 @@
+digraph GrammarC5_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C5 [label="Adverbs
+副词"]
+	D42 [label="Adverbs of Time
+时间副词"]
+	D43 [label="Adverbs of Place
+地点副词"]
+	D44 [label="Adverbs of Degree
+程度副词"]
+	E11 [label="Mitigators
+弱化"]
+	E12 [label="Intensifiers
+强调"]
+	D45 [label="Adverbs of Frequency
+频度副词"]
+	D46 [label="Adverbs of Purpose
+目的副词"]
+	D47 [label="Focusing Adverbs
+焦点副词"]
+	D48 [label="Negative Adverbs
+否定副词"]
+	D49 [label="Conjunctive Adverbs
+连接副词"]
+	D50 [label="Evaluative Adverbs
+评价副词"]
+	D51 [label="Viewpoint Adverbs
+观点副词"]
+	D52 [label="Relative Adverbs
+关系副词"]
+	D53 [label="Adverbial Nouns
+副词性名词（名词作状语）"]
+	D54 [label="Regular and Irregular Adverbs
+规则副词和不规则副词"]
+	D55 [label="Degrees of Comparison
+比较的程度"]
+	E13 [label="Comparative Adverbs
+比较级副词"]
+	E14 [label="Superlative Adverbs
+最高级副词"]
+	D56 [label="Order of Adverbs
+副词的顺序"]
+	C5 -> D42
+	C5 -> D43
+	C5 -> D44
+	C5 -> D45
+	C5 -> D46
+	C5 -> D47
+	C5 -> D48
+	C5 -> D49
+	C5 -> D50
+	C5 -> D51
+	C5 -> D52
+	C5 -> D53
+	C5 -> D54
+	C5 -> D55
+	C5 -> D56
+	D44 -> E11
+	D44 -> E12
+	D55 -> E13
+	D55 -> E14
+}

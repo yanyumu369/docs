@@ -1,0 +1,1 @@
+- [计算机图形学_闫令琪](game/computer_graphics/计算机图形学_闫令琪/computer_graphics.md)

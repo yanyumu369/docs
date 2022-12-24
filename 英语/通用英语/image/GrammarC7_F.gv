@@ -1,0 +1,15 @@
+digraph GrammarC7_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C7 [label="Conjunctions
+连接词（连词）"]
+	D65 [label="Coordinating Conjunctions
+并列连词"]
+	D66 [label="Correlative Conjunctions
+关联连词"]
+	D67 [label="Subordinating Conjunctions
+从属连词"]
+	C7 -> D65
+	C7 -> D66
+	C7 -> D67
+}

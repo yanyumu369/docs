@@ -1,0 +1,42 @@
+\documentclass{standalone}
+\usepackage[UTF8]{ctex} % 中文字体支持
+% \usepackage{geometry}
+% \geometry{height=2800mm, width=200mm}
+\usepackage{amsmath, amssymb}
+\usepackage{tikz, xcolor}
+\usetikzlibrary{shapes, arrows}
+% \definecolor{mybrown}{RGB}{214,91,9}
+
+\usepackage[edges]{forest}
+
+\usepackage{sansmath}
+%Defining the styles used in trees
+%Note that the fill colour is not defined here.
+% \tikzset{parent/.style={align=center,text width=2cm,rounded corners=2pt},
+%     child/.style={align=center,text width=2cm,rounded corners=6pt},
+%     grandchild/.style={text width=2.3cm}
+% }
+
+\begin{document}
+
+\begin{forest}
+    for tree={grow'=0,folder,align=left}
+    [/
+    [home
+        [saso
+                [Download]
+                [TeX]
+        ]
+        [alja]
+        [joe]
+    ]
+    [usr
+        [bin]
+        [share]
+    ]
+    [热氧化方法
+    [管式炉：水平管式炉、垂直管式炉]
+    ]
+    ]
+\end{forest}
+\end{document}

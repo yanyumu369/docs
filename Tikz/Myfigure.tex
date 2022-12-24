@@ -1,0 +1,17 @@
+\documentclass{standalone}
+
+\usepackage{amsmath, amssymb}
+
+\usepackage[RPvoltages]{circuitikz}
+
+\usepackage{xcolor}
+\definecolor{marinho}{RGB}{0, 100, 150}
+
+\usepackage{tikz, tkz-euclide, pgfplots}
+\usetikzlibrary{shapes, patterns, positioning, shapes.gates.logic.US}
+
+\begin{tikzpicture}
+    \draw[thick,->] (-2,0) -- (2,0) node[right] {$x$};
+    \draw[thick,->] (0,-2) -- (0,2) node[above] {$y$};
+    \draw[thick,domain=-2:2] plot (\x, {(\x)^2});
+\end{tikzpicture}

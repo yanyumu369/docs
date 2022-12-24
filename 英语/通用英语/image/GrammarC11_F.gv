@@ -1,0 +1,6 @@
+digraph GrammarC11_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C11 [label="Regular and Irregular Inflection
+规则和不规则屈折变化"]
+}

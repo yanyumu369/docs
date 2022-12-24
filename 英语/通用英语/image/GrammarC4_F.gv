@@ -1,0 +1,42 @@
+digraph GrammarC4_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C4 [label="Adjectives
+形容词"]
+	D32 [label="Attributive Adjectives
+定语形容词"]
+	D33 [label="Predicative Adjectives
+表语形容词"]
+	D34 [label="Proper Adjectives
+专有形容词"]
+	D35 [label="Collective Adjectives
+集体形容词"]
+	D36 [label="Demonstrative Adjectives
+指代形容词"]
+	D37 [label="Interrogative Adjectives
+疑问形容词"]
+	D38 [label="Nominal Adjectives
+名词性形容词"]
+	D39 [label="Compound Adjectives
+复合形容词"]
+	D40 [label="Order of Adjectives
+形容词的顺序"]
+	D41 [label="Degrees of Comparison
+比较的程度"]
+	E9 [label="Comparative Adjectives
+比较级形容词"]
+	E10 [label="Superlative Adjectives
+最高级形容词"]
+	C4 -> D32
+	C4 -> D33
+	C4 -> D34
+	C4 -> D35
+	C4 -> D36
+	C4 -> D37
+	C4 -> D38
+	C4 -> D39
+	C4 -> D40
+	C4 -> D41
+	D41 -> E9
+	D41 -> E10
+}

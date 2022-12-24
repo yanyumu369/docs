@@ -1,0 +1,12 @@
+[
+{
+  "directory": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/cpp_primer/sales_data/build",
+  "command": "E:\\mingw64\\bin\\g++.exe -DDEBUG -DREAL_COOL_ENGINEER @CMakeFiles/include.dir/includes_CXX.rsp  -pipe -std=c++11 -g -g -O0 -Wall -Wextra -pedantic -Werror -std=gnu++11 -o CMakeFiles\\include.dir\\src\\include\\Sales_data.cpp.obj -c E:\\Desktop\\Codefield\\Notebook\\docs\\programme\\CodeField\\Code_Cpp\\cpp_primer\\sales_data\\src\\include\\Sales_data.cpp",
+  "file": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/cpp_primer/sales_data/src/include/Sales_data.cpp"
+},
+{
+  "directory": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/cpp_primer/sales_data/build",
+  "command": "E:\\mingw64\\bin\\g++.exe -DDEBUG -DREAL_COOL_ENGINEER @CMakeFiles/add_item.dir/includes_CXX.rsp  -pipe -std=c++11 -g -g -O0 -Wall -Wextra -pedantic -Werror -std=gnu++11 -o CMakeFiles\\add_item.dir\\src\\add_item.cpp.obj -c E:\\Desktop\\Codefield\\Notebook\\docs\\programme\\CodeField\\Code_Cpp\\cpp_primer\\sales_data\\src\\add_item.cpp",
+  "file": "E:/Desktop/Codefield/Notebook/docs/programme/CodeField/Code_Cpp/cpp_primer/sales_data/src/add_item.cpp"
+}
+]

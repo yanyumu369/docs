@@ -1,0 +1,7 @@
+- [**半导体物理**](computer_science/semiconductor_physics/readme.md)
+- [**半导体器件**](computer_science/semiconductor_devices/readme.md)
+- [**模拟电路**](computer_science/analog_electronics/readme.md)
+- [**数字电路**](computer_science/digital_electronics/readme.md)
+- [**集成电路设计**](computer_science/IC_design/readme.md)
+- [**计算机系统**](computer_science/computer_system/readme.md)
+- [**数据结构**](computer_science/data_structure/readme.md)

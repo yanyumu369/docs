@@ -1,0 +1,45 @@
+digraph GrammarC2_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C2 [label="Pronouns
+代词"]
+	D9 [label="Personal Pronouns
+人称代词"]
+	E1 [label="Number
+数量"]
+	E2 [label="Person
+人称"]
+	E3 [label="Gender
+性"]
+	E4 [label="Case
+格"]
+	E5 [label="Reflexive Pronouns
+反身代词"]
+	D10 [label="Intensive Pronouns
+强化代词"]
+	D11 [label="Indefinite Pronouns
+不定代词"]
+	D12 [label="Demonstrative Pronouns
+指示代词"]
+	D13 [label="Interrogative Pronouns
+疑问代词"]
+	D14 [label="Relative Pronouns
+关系代词"]
+	D15 [label="Reciprocal Pronouns
+相互代词"]
+	D16 [label="Dummy Pronouns
+虚拟代词"]
+	C2 -> D9
+	C2 -> D10
+	C2 -> D11
+	C2 -> D12
+	C2 -> D13
+	C2 -> D14
+	C2 -> D15
+	C2 -> D16
+	D9 -> E1
+	D9 -> E2
+	D9 -> E3
+	D9 -> E4
+	D9 -> E5
+}

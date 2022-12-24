@@ -1,0 +1,61 @@
+\documentclass{ctexart}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper,height=225mm,width=180mm}
+
+\usepackage{xcolor} % Required for specifying colors by name
+\definecolor{marinho}{RGB}{0, 100, 150} 
+
+\usepackage[edges]{forest}
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{shapes, arrows, patterns, positioning}
+
+\begin{document}
+\begin{forest}
+    for tree={
+      where n children=0{tier=word}{}, % 叶子结点对齐
+      anchor=-parent last, %右对齐
+      %    anchor=parent first, %左对齐
+      grow'=0,
+      draw,
+      align=center
+    },
+    forked edges,
+    [关于 tlmgr 使用\\方法的简介,font=\large\bfseries
+      [安装 \TeX Live,name=install,
+      % 改变单个节点样式
+      draw=red,thick,densely dashed,
+        [下载镜像一直不成功的处理方法]
+        [需要管理员权限的处理办法]
+        [系统用中文作为用户名]
+      ]
+      [卸载 \TeX Live,
+      % 改变子树节点样式，不改变连接线样式
+        for tree={blue,draw=blue,thick}
+        [使用批处理文件]
+        [手动卸载,name=ManualUninstall]
+      ]
+      [跨版本升级 \TeX Live,shape = cloud,cloud puff arc=90,cloud ignores aspect, cloud puffs=40,fill=green]
+      for descendants={anchor=east,child anchor=east},
+      [升级宏包,
+      % 改变子树连接线样式，不改变子树节点样式
+        for tree={
+  %        grow=180,
+          edge = {densely dashed,red,ultra thick},}
+        [tlmgr 本身无法升级成功]
+        [升级到一半停止,name=pause,signal,fill=red,text=white,font=\bfseries]
+        [升级的必要性]
+      ]
+      [安装宏包]
+      [调出宏包手册]
+      [编译文档,
+      % 同时修改子树(不含当前节点)中节点与连接线的样式
+      for children={fill=yellow,draw=red,edge={red}}
+        [\LaTeXe\ 版本不匹配导致 xelatex 失败]
+        [编译出现 l3backend-* 问题]
+      ]
+    ]
+    \draw[red,->,>=stealth',very thick] (pause) to[distance=3cm,out=east,in=east] (ManualUninstall);
+    \draw[->,>=stealth'] (install.south) |- +(-2em,-2em) node[anchor=east] {新手必看};
+\end{forest}  
+\end{document}

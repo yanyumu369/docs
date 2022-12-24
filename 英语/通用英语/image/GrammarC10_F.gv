@@ -1,0 +1,12 @@
+digraph GrammarC10_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C10 [label="Declension
+词尾变化"]
+	D79 [label="Plurals
+复数"]
+	D80 [label="Gender in Nouns
+名词中的性"]
+	C10 -> D79
+	C10 -> D80
+}

@@ -1,0 +1,33 @@
+digraph GrammarC16_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C16 [label="Sentences
+句子"]
+	D90 [label="Compound Sentences
+复合句"]
+	D91 [label="Complex Sentences
+复杂句"]
+	D92 [label="Compound-Complex Sentences
+复合-复杂句"]
+	D93 [label="Declarative Sentences
+陈述句"]
+	D94 [label="Interrogative Sentences
+疑问句"]
+	D95 [label="Negative Interrogative Sentences
+否定疑问句"]
+	D96 [label="Imperative Sentences
+祈使句"]
+	D97 [label="Conditional Sentences
+条件句"]
+	D98 [label="Major and Minor Sentences (Regular and Irregular Sentences)
+大句和小句（规则句和不规则句）"]
+	C16 -> D90
+	C16 -> D91
+	C16 -> D92
+	C16 -> D93
+	C16 -> D94
+	C16 -> D95
+	C16 -> D96
+	C16 -> D97
+	C16 -> D98
+}

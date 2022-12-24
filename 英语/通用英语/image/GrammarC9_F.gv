@@ -1,0 +1,102 @@
+digraph GrammarC9_F {
+	rankdir=LR
+	node [fontname="Helvetica, SimHei" fontsize=14 shape=rect]
+	C9 [label="Conjugation
+动词的词形变化"]
+	D73 [label="Tense
+时态"]
+	E19 [label="Present Tense
+现在时"]
+	F2 [label="Present Simple Tense
+一般现在时"]
+	F3 [label="Present Continuous Tense (Progressive)
+现在进行时（渐进式）"]
+	F4 [label="Present Perfect Tense
+现在完成时"]
+	F5 [label="Present Perfect Continuous Tense
+现在完成进行时"]
+	E20 [label="Past Tense
+过去时"]
+	F6 [label="Past Simple Tense
+一般过去时"]
+	F7 [label="Past Continuous Tense
+过去进行时"]
+	F8 [label="Past Perfect Tense
+过去完成时"]
+	F9 [label="Past Perfect Continuous Tense
+过去完成进行时"]
+	E21 [label="Future Tense (Approximation)
+将来时"]
+	F10 [label="Future Simple Tense
+一般将来时"]
+	F11 [label="Future Continuous Tense
+将来进行时"]
+	F12 [label="Future Perfect Tense
+将来完成时"]
+	F13 [label="Future Perfect Continuous Tense
+将来完成进行时"]
+	D74 [label="Aspect
+体"]
+	E22 [label="Perfective and Imperfective Aspect
+完成和非完成的体"]
+	E23 [label="Aspects of the Present Tense
+现在时的体"]
+	E24 [label="Aspects of the Past Tense
+过去时的体"]
+	E25 [label="Aspects of the Future Tense
+将来时的体"]
+	D75 [label="Mood
+语气"]
+	E26 [label="Indicative Mood
+陈述语气"]
+	F14 [label="Subjunctive Mood
+虚拟语气"]
+	G11 [label="Subjunctive Mood - Expressing Wishes
+虚拟语气 - 表达愿望"]
+	D76 [label="Voice
+语态"]
+	E27 [label="Active Voice
+主动语态"]
+	E28 [label="Passive Voice
+被动语态"]
+	E29 [label="Middle Voice
+中动语态"]
+	D77 [label="Speech
+引语"]
+	E30 [label="Reported Speech (Indirect Speech)
+间接引语"]
+	D78 [label="Grammatical Person
+语法上的人称"]
+	C9 -> D73
+	C9 -> D74
+	C9 -> D75
+	C9 -> D76
+	C9 -> D77
+	C9 -> D78
+	D73 -> E19
+	D73 -> E20
+	D73 -> E21
+	D74 -> E22
+	D74 -> E23
+	D74 -> E24
+	D74 -> E25
+	D75 -> E26
+	D76 -> E27
+	D76 -> E28
+	D76 -> E29
+	D77 -> E30
+	E19 -> F2
+	E19 -> F3
+	E19 -> F4
+	E19 -> F5
+	E20 -> F6
+	E20 -> F7
+	E20 -> F8
+	E20 -> F9
+	E21 -> F10
+	E21 -> F11
+	E21 -> F12
+	E21 -> F13
+	E26 -> F14
+	F14 -> G11
+}

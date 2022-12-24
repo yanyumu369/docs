@@ -1,0 +1,19 @@
+\documentclass[border=5pt]{standalone}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usetikzlibrary{3d, arrows.meta, calc, shadows}
+\usepackage{siunitx}
+\usepackage{tikz-3dplot}
+\usepackage{ifthen}
+\usepackage{sansmath}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\sfdefault}{phv}
+\begin{document}
+\pgfmathparse{scalar(1pt)+1pt} \pgfmathresult\
+    \ifpgfmathunitsdeclared with \else without \fi unit
+\begin{tikzpicture}[x={(3.5mm,0.5mm)}, y={(-1.0mm, 2.0mm)}, z={(0mm,3mm)}]
+    \begin{scope}[canvas is xy plane at z=1.4]
+        \draw (2, 0)-- ++(xyz spherical cs:radius=0.4, latitude=0, longitude=130) arc [start angle=-40, end angle = 0, radius=0.4];
+    \end{scope}
+\end{tikzpicture}
+\end{document}

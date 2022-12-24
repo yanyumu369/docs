@@ -1,0 +1,2 @@
+E:\mingw64\bin\ar.exe qc libinclude.a CMakeFiles/include.dir/src/include/controller.cpp.obj CMakeFiles/include.dir/src/include/food.cpp.obj CMakeFiles/include.dir/src/include/map.cpp.obj CMakeFiles/include.dir/src/include/point.cpp.obj CMakeFiles/include.dir/src/include/snake.cpp.obj CMakeFiles/include.dir/src/include/startinterface.cpp.obj CMakeFiles/include.dir/src/include/tools.cpp.obj
+E:\mingw64\bin\ranlib.exe libinclude.a
