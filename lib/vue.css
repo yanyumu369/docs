@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+/* .katex { font-size: 1.1em; } Katex 字体大小调整 */
+/* .MathJax, .MathJax_Display  {
+    text-align: center !important;
+    font-size: 85%  !important;
+}  MathJax 字体大小调整 */
+
 body:not(.ready) {
     overflow: hidden;
 }
@@ -781,7 +787,7 @@ body {
 }
 
 .markdown-section a {
-    color: var(--theme-color, rgb(47, 175, 35));
+    color: var(--theme-color, #42b983);
     /* color: #333; */
     font-weight: 600;
 }
@@ -896,7 +902,8 @@ sup {
 
 .markdown-section figure,
 .markdown-section p {
-    margin: 1em 0; /* 段落间距 */
+    margin: 0em 0; /* 段落间距 */
+    text-indent: 2em;
 }
 
 .markdown-section ol,
@@ -908,10 +915,10 @@ sup {
 
 .markdown-section ol,
 .markdown-section ul {
-    padding-left: 1em;
+    padding-left: 4.3em;
     margin: 0 0;
-    list-style-position: inside;
-}
+    list-style-position: outside;
+} /* 列表设置 */
 
 .markdown-section blockquote {
     margin: 0 0;

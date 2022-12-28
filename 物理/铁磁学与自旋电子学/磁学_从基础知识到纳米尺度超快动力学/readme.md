@@ -26,9 +26,9 @@ $$
 
 ### 2.3 电流及其磁场
 
-电荷的流动就是电流。电流强度 $I$ 是时间间隔 $\Delta t$ 内流经截面的电荷 $q$，它的定义是 $I = \cfrac{q}{\Delta t}$，单位为安培 $[\rm{A}]$。$1 \rm{A}$ 对应着电荷 $q = 1 \rm{C}$ 在 $\Delta t = 1 \rm{s}$ 的时间内穿过的运动，对应于 $\cfrac{1}{e} = \cfrac{1}{1.6} \times 10^{19}$ 个基本电荷。
+电荷的流动就是电流。电流强度 $I$ 是时间间隔 $\Delta t$ 内流经截面的电荷 $q$，它的定义是 $I = q/\Delta t$，单位为安培 $[\rm{A}]$。$1 \rm{A}$ 对应着电荷 $q = 1 \rm{C}$ 在 $\Delta t = 1 \rm{s}$ 的时间内穿过的运动，对应于 $1/e = 1/1.6 \times 10^{19}$ 个基本电荷。
 
-电流密度矢量 $\boldsymbol{j}$ 与电流的方向相同，大小为 $j = \cfrac{I}{S}$，其中 $I$ 是流经截面 $S$ 的电流。因此，$j$ 的单位是 $[\rm{A\ m^{-2}}]$。由此可知，$\boldsymbol{j} = \rho \boldsymbol{v}$ 正比于电荷体密度 $\rho = \cfrac{q}{V}$ 和电荷运动速度 $\boldsymbol{v}$。
+电流密度矢量 $\boldsymbol{j}$ 与电流的方向相同，大小为 $j = I/S$，其中 $I$ 是流经截面 $S$ 的电流。因此，$j$ 的单位是 $[\rm{A\ m^{-2}}]$。由此可知，$\boldsymbol{j} = \rho \boldsymbol{v}$ 正比于电荷体密度 $\rho = q/V$ 和电荷运动速度 $\boldsymbol{v}$。
 
 奥斯特发现，电流产生磁场。
 
