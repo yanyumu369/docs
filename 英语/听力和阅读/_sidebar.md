@@ -1,2 +1,2 @@
-- [**单词发音**](english/听力和阅读/单词发音/readme.md)
-- [**TED-ed**](english/听力和阅读/TED_ed/readme.md)
+- [**单词发音**](英语/听力和阅读/单词发音/发音技巧.md)
+- [**TED-ed**](英语/听力和阅读/TED_ed/readme.md)

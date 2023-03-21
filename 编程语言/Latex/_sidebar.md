@@ -1,4 +1,4 @@
-- [Tikz 命令速查](programme/Latex/tikz&pgfplots/tikz_commands.md)
-- [Tikz 绘图示例](programme/Latex/tikz&pgfplots/tikz_samples.md)
-- [Tikz & Pgfplots 命令速查](programme/Latex/tikz&pgfplots/pgfplots_commands.md)
-- [Tikz & Pgfplots 绘图示例](programme/Latex/tikz&pgfplots/pgfplots_samples.md)
+- [Tikz 基本语法](编程语言/Latex/tikz&pgfplots/Tikz基本语法.md)
+- [Tikz 速查表](编程语言/Latex/tikz&pgfplots/Tikz速查表.md)
+- [Pgfplots 基本语法](编程语言/Latex/tikz&pgfplots/Pgfplots基本语法.md)
+- [Pgfplots 速查表](编程语言/Latex/tikz&pgfplots/Pgfplots速查表.md)

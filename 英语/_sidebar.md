@@ -1,3 +1,3 @@
-- [**通用英语**](english/general_english/readme.md)
-- [**学术英语**](english/academic_english/readme.md)
-- [**听力和阅读**](english/听力和阅读/readme.md)
+- [**通用英语**](英语/通用英语/readme.md)
+- [**学术英语**](英语/学术英语/readme.md)
+- [**听力和阅读**](英语/听力和阅读/readme.md)

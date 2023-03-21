@@ -1,4 +1,4 @@
-- [基本语法](programme/Markdown/grammar.md)
-- [数学公式](programme/Markdown/math.md)
-- [VSCode 快捷键](programme/Markdown/shortcut_key.md)
-- [代码补全](programme/Markdown/snippets.md.md)
+- [基本语法](编程语言/Markdown/grammar.md)
+- [数学公式](编程语言/Markdown/math.md)
+- [VSCode 快捷键](编程语言/Markdown/shortcut_key.md)
+- [代码补全](编程语言/Markdown/snippets.md.md)

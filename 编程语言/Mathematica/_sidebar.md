@@ -1,1 +1,1 @@
-- [Walfram 参考资料](programme/Mathematica/Walfram参考资料.md)
+- [Walfram 参考资料](编程语言/Mathematica/Walfram参考资料.md)

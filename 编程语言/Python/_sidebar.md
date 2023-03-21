@@ -1,4 +1,4 @@
-- [Python 编程：从入门到实践](programme/Python/python_programming.md)
-- [Python 小技巧](programme/Python/python_tips.md)
-- [Python 面试题](programme/Python/python_interview.md)
-- [Graphviz](programme/Python/Graphviz.md)
+- [Python 基本语法](编程语言/Python/Python基本语法.md)
+- [Python 速查表](编程语言/Python/Python速查表.md)
+- [Python 小技巧](编程语言/Python/python_tips.md)
+- [Graphviz](编程语言/Python/Graphviz.md)
