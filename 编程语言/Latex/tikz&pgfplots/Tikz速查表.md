@@ -8,6 +8,12 @@
 4. *Keys* 的内容都需要放在方括号内，但放在 `\begin{tikzpicture}`、`\draw` 等命令后面、还是路径内部 `node` 等命令后面需要具体区分；
 5. 范围的限定是通过**花括号**实现的。
 
+## 文件开头
+
+| 宏包 | 说明 |
+| ---- | ---- |
+|      |      |
+
 ## Specifying Coordinates 指定坐标
 
 ### Overview 概述
@@ -28,10 +34,10 @@
 
 ##### Coordinate system `canvas`
 
-| Keys (/tikz/cs/) | Values                      |
-| ---------------- | --------------------------- |
-| x=⟨*dimension*⟩  | no default, initially `0pt` |
-| y=⟨*dimension*⟩  | no default, initially `0pt` |
+| Keys (/tikz/cs/) | Values                      |Description|
+| ---------------- | --------------------------- |--|
+| x=⟨*dimension*⟩  | no default, initially `0pt` ||
+| y=⟨*dimension*⟩  | no default, initially `0pt` ||
 
 ```latex
 % 显式指定坐标系
@@ -44,11 +50,11 @@
 
 ##### Coordinate system `xyz`
 
-| Keys (/tikz/cs/) | Values                    |
-| ---------------- | ------------------------- |
-| x=⟨*factor*⟩     | no default, initially `0` |
-| y=⟨*factor*⟩     | no default, initially `0` |
-| z=⟨*factor*⟩     | no default, initially `0` |
+| Keys (/tikz/cs/) | Values                    |Description|
+| ---------------- | ------------------------- |--|
+| x=⟨*factor*⟩     | no default, initially `0` ||
+| y=⟨*factor*⟩     | no default, initially `0` ||
+| z=⟨*factor*⟩     | no default, initially `0` ||
 
 ```latex
 % 显式指定坐标系
@@ -61,41 +67,51 @@
 \draw (0,0) -- (0,0,1);
 ```
 
-**Coordinate system** `canvas polar`
+##### Coordinate system `canvas polar`
 
-| Keys (/tikz/cs/)     | Types      | Values |
-| -------------------- | ---------- | ------ |
-| angle=*degrees*      | no default |        |
-| radius=*dimension*   | no default |        |
-| x radius=*dimension* | no default |        |
-| y radius=*dimension* | no default |        |
+| Keys (/tikz/cs/)       | Values     |Description|
+| ---------------------- | ---------- |--|
+| angle=⟨*degrees*⟩      | no default |角度必须始终以度为单位|
+| radius=⟨*dimension*⟩   | no default ||
+| x radius=⟨*dimension*⟩ | no default ||
+| y radius=⟨*dimension*⟩ | no default ||
 
 ```latex
+% 显式指定坐标系
 \draw (0,0) -- (canvas polar cs:angle=30,radius=1cm);
+% 隐式指定坐标系
 \draw (0cm,0cm) -- (30:1cm) -- (60:1cm) -- (90:1cm) -- (120:1cm) -- (150:1cm) -- (180:1cm);
 \draw (0,0) -- (2ex,0pt) -- +(up:1ex);
 ```
 
-**Coordinate system** `xyz polar`
+##### Coordinate system `xyz polar` or `xy polar`
 
-| Keys (/tikz/cs/)     | Types      | Values |
+| Keys (/tikz/cs/)     | Values     | Description |
 | -------------------- | ---------- | ------ |
-| angle=*degrees*      | no default |        |
-| radius=*factor*      | no default |        |
-| x radius=*dimension* | no default |        |
-| y radius=*dimension* | no default |        |
+| angle=⟨*degrees*⟩      | no default |        |
+| radius=⟨*factor*⟩      | no default |        |
+| x radius=⟨*dimension*⟩ | no default |        |
+| y radius=⟨*dimension*⟩ | no default |        |
 
 ```latex
-\draw (xyz polar cs:angle=0,radius=2)
-  -- (xyz polar cs:angle=30,radius=2)
-  -- (xyz polar cs:angle=60,radius=2)
-  -- (xyz polar cs:angle=90,radius=2);
-\draw (0,0) -- (30:1) -- (60:1) -- (90:1) -- (120:1) -- (150:1) -- (180:1);
+\begin{tikzpicture}[x=1.5cm,y=1cm]
+  \draw[help lines] (0cm,0cm) grid (3cm,2cm);
+
+  \draw (0,0) -- (xyz polar cs:angle=0,radius=1);
+  \draw (0,0) -- (xyz polar cs:angle=30,radius=1);
+  \draw (0,0) -- (xyz polar cs:angle=60,radius=1);
+  \draw (0,0) -- (xyz polar cs:angle=90,radius=1);
+
+  \draw (xyz polar cs:angle=0,radius=2)
+     -- (xyz polar cs:angle=30,radius=2)
+     -- (xyz polar cs:angle=60,radius=2)
+     -- (xyz polar cs:angle=90,radius=2);
+\end{tikzpicture}
+
+\tikz[x={(0cm,1cm)},y={(-1cm,0cm)}]
+\draw  (0,0) -- (30:1) -- (60:1) -- (90:1)
+             -- (120:1) -- (150:1) -- (180:1);
 ```
-
-**Coordinate system** `xy polar`
-
-这只是 `xyz polar` 的一个别名，有些人可能更喜欢这个名字，因为 `xyz polar` 坐标中不涉及 `z` 坐标。
 
 ### Coordinates at Intersections 交点坐标
 
